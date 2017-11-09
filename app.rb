@@ -15,5 +15,3 @@ Sendbird.default_app = ENV['app_name']
 def authorize()
   redirect '/' if !(session[:email])
 end
-
-end
